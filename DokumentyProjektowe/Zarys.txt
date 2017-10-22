@@ -2,7 +2,7 @@ Zarys projektu SheepFold
 (SheepFold - owczarnia)
 
 Cel:
-Wykorzystaie nowoczesnych metod zarządzania projektem w praktyce na przykładzie procesu tworzenia gry.
+Wykorzystanie nowoczesnych metod zarządzania projektem w praktyce na przykładzie procesu tworzenia gry.
 
 Zarys gry:
 
@@ -24,7 +24,7 @@ Elementy gry:
 Warunek ukończenia etapu (poziomu gry):
 - Doprowadzenie wszystkich owiec do punktu docelowego.
 
-W grze będą przysnawane punkty za:
+W grze będą przyznawane punkty za:
  - Krótki czas rozwiązania problemu
  - Stan zdrowia owiec (brak obrażeń)
  - Ilość użytych psów do rozwiązania problemu.
