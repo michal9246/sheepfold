@@ -1,0 +1,37 @@
+Zarys projektu SheepFold
+(SheepFold - owczarnia)
+
+Cel:
+Wykorzystaie nowoczesnych metod zarz¹dzania projektem w praktyce na przyk³adzie procesu tworzenia gry.
+
+Zarys gry:
+
+	Gra bêdzie polega³a na kierowaniu stada owiec do zagrody lub budynku. Gracz nie ma bezpoœredniego wp³ywu na ruch poszczególnych owiec w stadzie, kontrola bêdzie odbywa³a siê przy pomocy psów. W grze znajd¹ siê przeszkody oraz zagro¿enia, które poprzez odpowiedni¹ kontrolê psów, ca³e stado bêdzie musia³o omin¹æ. Aby zaliczyæ zadanie w grze wszystkie owce bêd¹ musia³y zostaæ doprowadzone do miejsca docelowego.
+
+Elementy gry:
+ - Owca - obiekt, który porusza siê chaotycznie. Wiele owiec na ma³ym obszarze wykazuje cechy t³umu, który porusza siê zgodnie. Gracz nie ma bezpoœredniego wp³ywu na ruch owiec, mo¿e je kontrolowaæ jedynie poprzez psy. Owca w grze mo¿e zostaæ zraniona, zablokowana przez przeszkodê. Owca porusza siê po mapie, omijaj¹c przeszkody.
+
+- Pies - obiekt kontrolowany przez gracza. Pies przeznaczony jest do sprawowania kontroli nad owcami przez gracza. Gracz ma wp³yw na miejsce gdzie pies siê znajduje, czy szczeka (straszy owce), oraz jaki ruch wykonuje.
+
+- Przeszkoda - element na mapie przez który owce nie s¹ w stanie przejœæ. Przeszkodê mo¿na omin¹æ. Przeszkod¹ mo¿e byæ np: barierka.
+
+- Przeszkoda agresywna - zagro¿enie dla owcy, które mo¿e spowodowaæ zranienie lub œmieræ. Gracz aby zaliczyæ poziom nie mo¿e skierowaæ owcy do punktu zagro¿enia. Zagro¿eniem mo¿e byæ np: lis.
+
+- Mapa - Uk³ad elementów œwiata gry, który zawiera przeszkody, przeszkody agresywne, owce i inne elementy wystêpuj¹ce w grze.
+
+- Punkt docelowy - obiekt na mapie, do którego nale¿y doprowadziæ wszystkie owce. Mo¿e to byæ zagroda lub inne miejsce oznaczone na mapie.
+
+Warunek ukoñczenia etapu (poziomu gry):
+- Doprowadzenie wszystkich owiec do punktu docelowego.
+
+W grze bêd¹ przysnawane punkty za:
+ - Krótki czas rozwi¹zania problemu
+ - Stan zdrowia owiec (brak obra¿eñ)
+ - Iloœæ u¿ytych psów do rozwi¹zania problemu.
+
+Wstêpne za³o¿enia projektowe:
+ - Zintegrowane œrodowisko programistyczne - Android Studio
+ - G³ówny jêzyk programistyczny u¿yty do stworzenia gry: Java
+ - Docelowe urz¹dzenie - Telefon komórkowy lub tablet
+ - Docelowy system operacyjny - Android w wersji 4.2 lub wy¿szej.
+ - Repozytorium projektu - GitHub
